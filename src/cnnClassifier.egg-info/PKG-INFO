@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/nikhildsza/Kidney-Disease-Classification
+Author: nikhildsza
+Author-email: nikhilm.dsouza@gmail.com
+Project-URL: Bug Tracker, https://github.com/nikhildsza/Kidney-Disease-Classification/issues
+
+# Kidney-Disease-Classification
+
+A kidney disease classification which is an end-to-end Deep Leaning Project using MLfLow and DVC
