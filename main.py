@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-from src.cnnClassifier import logger
-
-logger.info("Welcome to the custom log")
-=======
 from cnnClassifier import logger
 from cnnClassifier.pipeline.stage01_data_ingestion import DataIngestionTrainingPipeline
 
@@ -16,4 +11,3 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
->>>>>>> 0df3609 (Data-Ingestion Phase)
