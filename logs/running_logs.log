@@ -1,2 +1,33 @@
 [2024-08-05 17:08:45,653: INFO: main: Welcome to our custom log:]
 [2024-09-23 23:12:30,180: INFO: main: Welcome to the custom log:]
+<<<<<<< HEAD
+=======
+[2024-09-29 01:30:05,926: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-09-29 01:30:05,926: ERROR: main: main() takes 0 positional arguments but 1 was given:]
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    obj.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-09-29 01:31:37,841: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-09-29 01:31:37,841: ERROR: main: main() takes 0 positional arguments but 1 was given:]
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-09-29 01:32:13,791: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-09-29 01:32:13,792: ERROR: main: main() takes 0 positional arguments but 1 was given:]
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    data_ingestion.main()
+TypeError: main() takes 0 positional arguments but 1 was given
+[2024-09-29 01:33:15,858: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-09-29 01:33:15,858: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-09-29 01:33:15,859: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-09-29 01:33:15,859: INFO: common: created directory at: artifacts:]
+[2024-09-29 01:33:15,859: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-09-29 01:33:15,859: INFO: data_ingestion: Downloading dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-09-29 01:34:26,282: INFO: data_ingestion: Downloaded dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-09-29 01:34:30,104: INFO: main: >>>>STAGE:Data Ingestion Stage has completed<<<<<<<<
+
+:]
+>>>>>>> 0df3609 (Data-Ingestion Phase)
