@@ -1,7 +1,5 @@
 [2024-08-05 17:08:45,653: INFO: main: Welcome to our custom log:]
 [2024-09-23 23:12:30,180: INFO: main: Welcome to the custom log:]
-<<<<<<< HEAD
-=======
 [2024-09-29 01:30:05,926: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
 [2024-09-29 01:30:05,926: ERROR: main: main() takes 0 positional arguments but 1 was given:]
 Traceback (most recent call last):
@@ -30,4 +28,3 @@ TypeError: main() takes 0 positional arguments but 1 was given
 [2024-09-29 01:34:30,104: INFO: main: >>>>STAGE:Data Ingestion Stage has completed<<<<<<<<
 
 :]
->>>>>>> 0df3609 (Data-Ingestion Phase)
