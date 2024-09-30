@@ -28,3 +28,90 @@ TypeError: main() takes 0 positional arguments but 1 was given
 [2024-09-29 01:34:30,104: INFO: main: >>>>STAGE:Data Ingestion Stage has completed<<<<<<<<
 
 :]
+[2024-09-30 23:43:05,893: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-09-30 23:43:05,896: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-09-30 23:43:05,897: INFO: common: created directory at: artifacts:]
+[2024-09-30 23:43:05,898: INFO: common: created directory at: artifacts/prepare_base_model:]
+[2024-09-30 23:43:16,511: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-09-30 23:45:54,737: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-09-30 23:45:54,739: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-09-30 23:45:54,740: INFO: common: created directory at: artifacts:]
+[2024-09-30 23:45:54,740: INFO: common: created directory at: artifacts/prepare_base_model:]
+[2024-09-30 23:45:54,986: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-10-01 00:43:00,698: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-10-01 00:43:00,699: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-10-01 00:43:00,700: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-10-01 00:43:00,700: INFO: common: created directory at: artifacts:]
+[2024-10-01 00:43:00,700: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-10-01 00:43:00,700: INFO: data_ingestion: Downloading dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 00:43:06,592: ERROR: main: 'PosixPath' object has no attribute 'write':]
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/home/nikhilds/Projects/Kidney-Disease-Classification/src/cnnClassifier/pipeline/stage01_data_ingestion.py", line 15, in main
+    data_ingestion.download_data()
+  File "/home/nikhilds/Projects/Kidney-Disease-Classification/src/cnnClassifier/components/data_ingestion.py", line 27, in download_data
+    raise e
+  File "/home/nikhilds/Projects/Kidney-Disease-Classification/src/cnnClassifier/components/data_ingestion.py", line 23, in download_data
+    gdown.download(prefix_url+file_id,zipfile_path)
+  File "/home/nikhilds/anaconda3/envs/kidenv/lib/python3.8/site-packages/gdown/download.py", line 369, in download
+    f.write(chunk)
+AttributeError: 'PosixPath' object has no attribute 'write'
+[2024-10-01 00:45:22,295: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-10-01 00:45:22,296: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-10-01 00:45:22,297: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-10-01 00:45:22,297: INFO: common: created directory at: artifacts:]
+[2024-10-01 00:45:22,298: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-10-01 00:45:22,298: INFO: data_ingestion: Downloading dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 00:45:26,898: ERROR: main: 'PosixPath' object has no attribute 'write':]
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/home/nikhilds/Projects/Kidney-Disease-Classification/src/cnnClassifier/pipeline/stage01_data_ingestion.py", line 15, in main
+    data_ingestion.download_data()
+  File "/home/nikhilds/Projects/Kidney-Disease-Classification/src/cnnClassifier/components/data_ingestion.py", line 28, in download_data
+    raise e
+  File "/home/nikhilds/Projects/Kidney-Disease-Classification/src/cnnClassifier/components/data_ingestion.py", line 24, in download_data
+    gdown.download(prefix_url+file_id,zipfile_path)
+  File "/home/nikhilds/anaconda3/envs/kidenv/lib/python3.8/site-packages/gdown/download.py", line 369, in download
+    f.write(chunk)
+AttributeError: 'PosixPath' object has no attribute 'write'
+[2024-10-01 00:51:37,483: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-10-01 00:51:37,485: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-10-01 00:51:37,486: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-10-01 00:51:37,486: INFO: common: created directory at: artifacts:]
+[2024-10-01 00:51:37,486: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-10-01 00:51:37,486: INFO: data_ingestion: Downloading dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 00:52:57,117: INFO: data_ingestion: Downloaded dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 00:53:00,889: INFO: main: >>>>STAGE:Data Ingestion Stage has completed<<<<<<<<
+
+x===================x:]
+[2024-10-01 00:53:00,889: INFO: main: >>>>STAGE:Prepare Base Model Stage has started<<<<<<<<:]
+[2024-10-01 00:53:00,891: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-10-01 00:53:00,891: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-10-01 00:53:00,891: INFO: common: created directory at: artifacts:]
+[2024-10-01 00:53:00,892: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-10-01 00:53:00,892: INFO: data_ingestion: Downloading dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 00:54:40,579: INFO: data_ingestion: Downloaded dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 00:54:44,729: INFO: main: >>>>STAGE:Prepare Base Model Stage has completed<<<<<<<<
+
+x===================x:]
+[2024-10-01 00:58:38,416: INFO: main: >>>>STAGE:Data Ingestion Stage has started<<<<<<<<:]
+[2024-10-01 00:58:38,417: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-10-01 00:58:38,418: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-10-01 00:58:38,418: INFO: common: created directory at: artifacts:]
+[2024-10-01 00:58:38,418: INFO: common: created directory at: artifacts/data_ingestion:]
+[2024-10-01 00:58:38,418: INFO: data_ingestion: Downloading dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 01:00:01,608: INFO: data_ingestion: Downloaded dataset from https://drive.google.com/file/d/1EFvdGjOAlQMpd7Zn11JMNxb8QRErLBAa/view?usp=sharing into artifacts/data_ingestion/data.zip:]
+[2024-10-01 01:00:05,308: INFO: main: >>>>STAGE:Data Ingestion Stage has completed<<<<<<<<
+
+x===================x:]
+[2024-10-01 01:00:05,308: INFO: main: >>>>STAGE:Prepare Base Model Stage has started<<<<<<<<:]
+[2024-10-01 01:00:05,309: INFO: common: yaml file: config/config.yaml loaded successfully:]
+[2024-10-01 01:00:05,310: INFO: common: yaml file: params.yaml loaded successfully:]
+[2024-10-01 01:00:05,310: INFO: common: created directory at: artifacts:]
+[2024-10-01 01:00:05,314: INFO: common: created directory at: artifacts/prepare_base_model:]
+[2024-10-01 01:00:05,673: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.:]
+[2024-10-01 01:00:05,875: INFO: main: >>>>STAGE:Prepare Base Model Stage has completed<<<<<<<<
+
+x===================x:]
